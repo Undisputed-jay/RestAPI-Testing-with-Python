@@ -25,6 +25,6 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest test/test_api.py
+          pytest -v test/test_api.py
 
           
